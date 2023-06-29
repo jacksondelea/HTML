@@ -1,6 +1,3 @@
-// Add to scripts.js
-
-// Load JSON data
 fetch('data/projects.json')
   .then(response => response.json())
   .then(projects => {

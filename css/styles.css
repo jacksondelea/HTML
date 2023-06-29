@@ -134,6 +134,26 @@ body {
     padding: 0.5rem;
     cursor: pointer;
 }
+
+#projects a {
+    color: #0a58d0;
+    text-decoration: none;
+  }
+  
+  #projects a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Change link color for projects */
+  .project-info a.link {
+    color: #121212;
+  }
+  
+  /* Change link color on hover for projects */
+  .project-info a.link:hover {
+    color: #0a58d0;
+  }
+  
   
 
 @media (max-width: 1024px) {  
