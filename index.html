@@ -3,11 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Jackson Delea</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Your content goes here -->
-    <script src="js/script.js"></script>
+    <div class="content">
+        <div class="infoindent">
+            <div class="topbar">
+                <!-- NameLogo Component -->
+                <div id="nameLogo">
+                    <span id="logoText">
+                        Jackson Delea
+                    </span>
+                </div>
+            </div>
+            <div class="text">
+                <!-- Bio Component -->
+            <div id="bio">
+                <p>
+                Technologist, writer and designer based in New York City.
+                <span id="extraBio" style="display: none;">
+                    I got my B.A. from Brown University, where I studied a mix of literature, computer science, architecture, theory, and design. I'm interested in how technology, politics and culture interact to produce new social conditions. Right now, I'm particularly interested in distributed networks, open source software, and durable interface design. I'm working on developing a critical design practice that connects my aesthetic sensibilities with my political values and software engineering skills. You can learn more about me through the links and projects below.
+                </span>
+                <a href="#" id="toggleBio" style="color: #0a58d0; cursor: pointer;">[more]</a>
+                </p>
+                <p>I'm 
+                <span id="workStatus" style="cursor: pointer;">open to work!</span>
+                </p>
+            </div>
+            </div>
+            <!-- Contact Component -->
+            <div id="contact" >
+                <span id="email" class="email">E-Mail</span>
+                <a href="https://docs.google.com/document/d/1qPTrAEfb4tQ7i7hwuZnJMGckzezlfh7_CdmYR1pE3GQ/edit?usp=sharing">CV</a>
+                <a href="https://www.linkedin.com/in/jackson-delea/">LinkedIn</a>
+                <a href="https://soundcloud.com/jacksondelay">Soundcloud</a>
+                <a href="https://www.are.na/jackson-delea">Are.na</a>
+            </div>
+        </div>
+        <!-- Projects Component -->
+        <div id="projects"></div>
+        <!-- BottomProjectBorder Component -->
+        <div id="bottomProjectBorder"></div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script>
+        let isBlack = false;
+      
+        document.getElementById('toggleBio').addEventListener('click', function (event) {
+          event.preventDefault();
+          const extraBio = document.getElementById('extraBio');
+          if (extraBio.style.display === 'none') {
+            extraBio.style.display = 'inline';
+            this.innerText = '[less]';
+          } else {
+            extraBio.style.display = 'none';
+            this.innerText = '[more]';
+          }
+        });
+      
+        window.addEventListener('mousemove', function (event) {
+          const x = event.clientX;
+          const y = event.clientY;
+          if (!isBlack) {
+            const color = `rgb(${x % 255}, ${y % 255}, ${(x + y) % 255})`;
+            document.getElementById('workStatus').style.color = color;
+          }
+        });
+      
+        document.getElementById('workStatus').addEventListener('click', function () {
+          isBlack = !isBlack;
+          if (isBlack) {
+            this.style.color = "#FFFF";
+          } else {
+            this.style.color = "";
+          }
+        });
+
+        document.getElementById('email').addEventListener('click', function () {
+            window.location.href = "mailto:jackson_delea@alumni.brown.edu";
+        });
+    </script>      
 </body>
 </html>

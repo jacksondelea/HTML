@@ -1,0 +1,67 @@
+[
+    {
+    "title": "Mtriage",
+    "format": "Software",
+    "setting": "Forensic Architecture",
+    "date": "2023",
+    "info1": "I'm producing a video piece on behalf of Forensic Architecture for the Data and Surveillance exhibition with the Harvard Data and Society Group, set to open in October 2023. The video provides a demo of Mtriage, an open source software framework developed for the analysis of large volumes of video and images. I updated the code base, trained a new machine learning classifier to detect and classify objects in video and images, and produced and edited the video.",
+    "image": "data/images/triplechas.jpeg",
+    "info2": "Curatorial description: “Computer vision” is a field of computer science focused on identifying objects and aspects in images and videos. The field has been enriched in recent decades by significant advances in machine learning and artificial intelligence, which have sufficiently improved classification accuracy, facilitating an expansion in the business of large-scale and real-time processing in industry, business, and military applications. Computational “eyes” are heralded as more efficient than human ones at scale, and even less “biased” (by some). ‘Mtriage’ is an open source software framework developed by Forensic Architecture to download, process and analyze media in order to expedite the investigation of human rights violations captured in public domain media. ",
+    "link": {
+    "url": "https://forensic-architecture.org/investigation/detecting-tear-gas",
+    "text": "Click here for more information"
+    }
+    },
+    {
+    "title": "The Noise Filter - Cybernetics in “Gravitys Rainbow”",
+    "format": "Writing",
+    "setting": "Undergraduate",
+    "date": "2023",
+    "info1": "Brief essay on the role of cybernetic systems, ranging from noise filters in anti-air weaponry to the capitalist world system, within Thomas Pynchons postmodern classic 'Gravitys Rainbow.'",
+    "image": "data/images/aircraft.jpeg",
+    "info2": "This is the first edition of the essay.",
+    "link": {
+    "url": "https://docs.google.com/document/d/10nx2EQT-wBNqCYWjvSB13rnT7IuuAAA-IvUnpXuX79Q/edit?usp=sharing",
+    "text": "You can read it here"
+    }
+    },
+    {
+    "title": "Web Urbanism",
+    "format": "Writing",
+    "setting": "Undergraduate",
+    "date": "2023",
+    "info1": "Essay exploring urban spatial metaphors of cyberspace, from network culture and surveillance capitalism, to 1980s cyberpunk, to “post-neoliberal” futures of decentralized computing, and in particular, Urbit.",
+    "image": "data/images/network.pbm",
+    "info2": "This essay is in revision and is available by request.",
+    "link": {
+    "url": "https://docs.google.com/document/d/1ON2WIMpW8k5VkDMwW6hVBRWhUk341c691nfX6qLccFU/edit?usp=sharing",
+    "text": "Request access here."
+    }
+    },
+    {
+    "title": "Mobile Interface Redesign and Testing",
+    "format": "Software",
+    "setting": "Andi / Undergraduate",
+    "date": "2022",
+    "info1": "Mobile redesign for Andi, an AI-powered search engine.",
+    "image": "data/images/giphy.gif",
+    "info2": "Designed with Will Allstetter and Frank Carber.",
+    "link": {
+    "url": "https://www.ycombinator.com/companies/andi",
+    "text": "Read more about Andi here."
+    }
+    },
+    {
+    "title": "TT - NTS",
+    "format": "Music",
+    "setting": "Forensic Architecture",
+    "date": "2022",
+    "info1": "Guest mix for TT Label's monthly NTS show. Aired December 2022. Intro by DJ Pitch.",
+    "image": "data/images/nts.png",
+    "info2": "Thank you Rob and Maya :)",
+    "link": {
+    "url": "https://soundcloud.com/jacksondelay/jackson-delay-for-tt-label-w-dj-pitch-nts-december-2022?si=620f31e3fad545daad9615d2d2255442&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "text": "Listen here."
+    }
+    }
+]

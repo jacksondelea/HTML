@@ -1,0 +1,156 @@
+:root {
+
+  }
+
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.16rem;
+    text-rendering: optimizeLegibility;
+    color: #121212;
+    background-color: #FFFF;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infoindent{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.content {
+    max-width: 420px;
+}
+
+.text{
+    max-width: 600px;
+}
+#logoText {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Michroma', sans-serif;
+    cursor: default;
+    padding-bottom: 0.75rem;
+}
+#bio.content{
+    border-top: 0.5px solid #FFFF;
+}
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid #FFFF;
+}
+
+#contact a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: #0a58d0;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#contact .email {
+    color: #0a58d0;
+    cursor: pointer;
+}
+
+#contact .email:hover {
+    text-decoration: underline;
+}
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.project-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    flex: 2;
+}
+
+.link{
+    color: #FFFF;
+    padding-bottom: 0.5rem;
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+}
+
+.project-item:hover, .top-project:hover, .category:hover, .project-item:target {
+    cursor: pointer;
+}
+
+.project-item:hover .title, .project-item:hover .date {
+    text-decoration: underline;
+}
+
+.project-info {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 0.5px dotted;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    max-width: 100%;
+}
+
+/* New style for selected project text */
+.project-text.selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* add your own styles for the category div */
+.category {
+    /* styles here */
+    padding: 0.5rem;
+    cursor: pointer;
+}
+  
+
+@media (max-width: 1024px) {  
+    .content {
+        margin-top: 2.5rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 95%;
+    }
+}
