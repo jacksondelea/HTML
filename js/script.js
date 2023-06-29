@@ -1,7 +1,7 @@
 // Add to scripts.js
 
 // Load JSON data
-fetch('../data/projects.json')
+fetch('data/projects.json')
   .then(response => response.json())
   .then(projects => {
     // Group projects by format
