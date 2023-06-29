@@ -39,6 +39,19 @@
     }
     },
     {
+        "title": "On Aluminum Buildings",
+        "format": "Writing",
+        "setting": "Undergraduate",
+        "date": "2022",
+        "info1": "Displacement, transmission, and contemporary architecture",
+        "image": "data/images/lpac.jpg",
+        "info2": "A brief article for the College Hill Independent on the new Lindemann Performing Arts Center.",
+        "link": {
+        "url": "https://www.theindy.org/article/2774",
+        "text": "You can read it here."
+        }
+        },
+    {
     "title": "Critical Ambience",
     "format": "Writing",
     "setting": "Undergraduate",
