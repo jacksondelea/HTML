@@ -26,9 +26,11 @@
 .content {
     max-width: 420px;
 }
-
+.border {
+    border-top: 0.23px solid #FFFF;
+}
 .text{
-    max-width: 600px;
+    max-width: 420px;
 }
 #logoText {
     font-size: 1.25rem;
