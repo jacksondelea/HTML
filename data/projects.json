@@ -30,8 +30,21 @@
     "format": "Writing",
     "setting": "Undergraduate",
     "date": "2023",
-    "info1": "Essay exploring urban spatial metaphors of cyberspace, from network culture and surveillance capitalism, to 1980s cyberpunk, to “post-neoliberal” futures of decentralized computing, and in particular, Urbit.",
+    "info1": "“What if the internet was a city? What would be its roads, buildings, and parks?” This question was levied at the 2018 Decentralized Web Summit, where programmers, urban planners and theorists collaborated to explore “decentralized forms of networking through the lenses of cities, urbanism, and architecture.” Urban metaphors have lain at the heart of “cyberspace” imaginaries since its inception, but it's clear that now, the city of the internet is one we no longer want to live in. In a moment dubbed by some to be the turning point into “post-neoliberalism,” new paradigms of digital networking are emerging in reaction to the current state of internet infrastructure and governance. This essay traces the evolution of the internet through a series of urban spatial metaphors, from the birth of Network Culture to the new cyberpunk futures of decentralized computing. I hope to offer new frameworks and tools for the analysis of new forms of networking to come.",
     "image": "data/images/network.pbm",
+    "info2": "This essay is in revision and is available by request.",
+    "link": {
+    "url": "https://docs.google.com/document/d/1ON2WIMpW8k5VkDMwW6hVBRWhUk341c691nfX6qLccFU/edit?usp=sharing",
+    "text": "Request access here."
+    }
+    },
+    {
+    "title": "Critical Ambeint",
+    "format": "Writing",
+    "setting": "Undergraduate",
+    "date": "2022",
+    "info1": "An inquiry into contemporary ambient artworks, focusing primarily on Tan Lin's 'ambient poetics' and the work of Brian Eno. I draw upon Deleuze's 'Societies of Control' essay examine the role of ambient aesthetics or 'soft architecture' in contemporary control apparatuses (in particular, metadata infrastructure).",
+    "image": "data/images/muzak.jpeg",
     "info2": "This essay is in revision and is available by request.",
     "link": {
     "url": "https://docs.google.com/document/d/1ON2WIMpW8k5VkDMwW6hVBRWhUk341c691nfX6qLccFU/edit?usp=sharing",
@@ -52,6 +65,19 @@
     }
     },
     {
+    "title": "Bad Fortune",
+    "format": "Music",
+    "setting": "Forensic Architecture",
+    "date": "2022+",
+    "info1": "Lead creative, talent buying, and production for ongoing DIY event series in Providence, RI. Hosted with Symposium Records at legendary underground venue 1911.",
+    "image": "data/images/bficon.png",
+    "info2": "Initial logo design in collaboration with Constantin Gardey.",
+    "link": {
+    "url": "https://www.instagram.com/badfortune.pvd/",
+    "text": "View our events here."
+    }
+    },
+    {
     "title": "TT - NTS",
     "format": "Music",
     "setting": "Forensic Architecture",
@@ -61,6 +87,19 @@
     "info2": "Thank you Rob and Maya :)",
     "link": {
     "url": "https://soundcloud.com/jacksondelay/jackson-delay-for-tt-label-w-dj-pitch-nts-december-2022?si=620f31e3fad545daad9615d2d2255442&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "text": "Listen here."
+    }
+    },
+    {
+    "title": "Live from New York",
+    "format": "Music",
+    "setting": "Forensic Architecture",
+    "date": "2022",
+    "info1": "2 hour mix recorded live in August, Brooklyn, NY.",
+    "image": "data/images/brook.png",
+    "info2": "This mix spans my typical club tempos and styles.",
+    "link": {
+    "url": "https://soundcloud.com/jacksondelay/livefromny81922?si=f7117cae588046fd97a18db22c7d7ca8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     "text": "Listen here."
     }
     }
