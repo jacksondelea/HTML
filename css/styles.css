@@ -1,7 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-  }
-  
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,56 +11,61 @@ body {
     line-height: 1.16rem;
     text-rendering: optimizeLegibility;
     color: #121212;
-    background-color: #ebeae6;
+    background-color: #bac8d3;
     transition: color 0.3s ease, background-color 0.3s ease;
-  }
+}
+
 .topbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .infoindent{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
 .content {
     box-sizing: border-box;
-    max-width: 420px;     
+    max-width: 390px;     
     margin: 0 auto;
     margin-top: 20vh;
-    border: 0.5px solid #121212;
-    padding: 1.5rem;
-    padding-bottom: 1rem;
-    border-radius: 5px;
+    border-left: 0.5px solid #121212;
+    padding-left: 1rem;
 }
     
 .border {
     border-top: 0.23px solid #121212;
 }
-.text{
-    max-width: 420px;
-}
+
 #logoText {
     font-size: 1.25rem;
     font-weight: 700;
     font-family: 'Michroma', sans-serif;
     cursor: default;
-    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
 }
+
 #bio.content{
     border-top: 0.5px solid #121212;
 }
+
+.component {
+    margin-bottom: 1rem; /* Change this value to adjust the space */
+}
+
 #contact {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     border-bottom: 0.5px solid #121212;
 }
 
 #contact a {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-    color: #0a58d0;
+    color: #ea5b0c;
     text-decoration: none;
 }
 
@@ -70,7 +75,7 @@ body {
 }
 
 #contact .email {
-    color: #0a58d0;
+    color: #ea5b0c;
     cursor: pointer;
 }
 
@@ -147,7 +152,7 @@ body {
 }
 
 #projects a {
-    color: #0a58d0;
+    color: #ea5b0c;
     text-decoration: none;
   }
   
@@ -162,11 +167,9 @@ body {
   
   /* Change link color on hover for projects */
   .project-info a.link:hover {
-    color: #0a58d0;
+    color: #ea5b0c;
   }
   
-  
-
 @media (max-width: 1024px) {  
     .content {
         margin-top: 2.5rem; 
