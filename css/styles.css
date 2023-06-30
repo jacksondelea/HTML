@@ -1,12 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "Inter", sans-serif;
     font-size: 0.75rem;
+    font-weight: 450;
     line-height: 1.16rem;
     text-rendering: optimizeLegibility;
     color: #121212;
-    background-color: #FFFF;
+    background-color: #ebeae6;
     transition: color 0.3s ease, background-color 0.3s ease;
   }
 .topbar{
@@ -19,7 +24,8 @@ body {
     margin-right: 0.5rem;
 }
 .content {
-    max-width: 400px;     
+    box-sizing: border-box;
+    max-width: 420px;     
     margin: 0 auto;
     margin-top: 20vh;
     border: 0.5px solid #121212;
@@ -36,7 +42,7 @@ body {
 }
 #logoText {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Michroma', sans-serif;
     cursor: default;
     padding-bottom: 0.75rem;
@@ -175,6 +181,7 @@ body {
 
 @media (max-width: 480px) {
     .content {
+        margin-top: 0;
         width: 95%;
     }
 }
