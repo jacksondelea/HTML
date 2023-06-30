@@ -21,7 +21,7 @@
     "image": "data/images/aircraft.jpeg",
     "info2": "This is the first edition of the essay.",
     "link": {
-    "url": "https://docs.google.com/document/d/10nx2EQT-wBNqCYWjvSB13rnT7IuuAAA-IvUnpXuX79Q/edit?usp=sharing",
+    "url": "https://docs.google.com/document/d/1_Kto041aiC_24G3Esjyfc_Mk1fToPOXRILzQtj9uH10/edit?usp=sharing",
     "text": "You can read it here"
     }
     },
@@ -45,7 +45,7 @@
         "date": "2022",
         "info1": "Displacement, transmission, and contemporary architecture",
         "image": "data/images/lpac.jpg",
-        "info2": "A brief article for the College Hill Independent on the new Lindemann Performing Arts Center.",
+        "info2": "A brief article on the new Lindemann Performing Arts Center. For the College Hill Independent's 'Mediations on Infrastructure.'",
         "link": {
         "url": "https://www.theindy.org/article/2774",
         "text": "You can read it here."
@@ -64,6 +64,19 @@
     "text": "Request access here."
     }
     },
+    {
+        "title": "Hybrid Office Interfaces",
+        "format": "Software",
+        "setting": "Andi / Undergraduate",
+        "date": "2023",
+        "info1": "I'm writing and desiging for an upcoming paper/project exploring interfaces and modular architecture for hybrid-remote work oriented offices. My contributions focus primarily on the large-scale social consequences of hyrbid and remote work. I'm also developing design heuristics and interface prototypes for hybird work oriented devices.",
+        "image": "data/images/janus.png",
+        "info2": "This project is in development with Ian Gonsher and the Brown Computer Science and Engineering departments. Expected publication 2024.",
+        "link": {
+        "url": "https://www",
+        "text": "Check out the demo for our first product here."
+        }
+        },
     {
     "title": "Mobile Interface Redesign and Testing",
     "format": "Software",
