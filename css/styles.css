@@ -44,7 +44,7 @@ body {
     font-weight: 700;
     font-family: 'Michroma', sans-serif;
     cursor: default;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 
 #bio.content{
