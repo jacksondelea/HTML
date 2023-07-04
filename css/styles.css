@@ -11,7 +11,7 @@ body {
     line-height: 1.6em;
     text-rendering: optimizeLegibility;
     color: #121212;
-    background-color: #bac8d3;
+    background-color: #e9e8e7;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
