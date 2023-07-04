@@ -28,7 +28,7 @@ body {
 
 .content {
     box-sizing: border-box;
-    max-width: 390px;     
+    max-width: 410px;     
     margin: 0 auto;
     margin-top: 25vh; /* it is 1/3 of the viewport height */
     padding-left: 1rem;
