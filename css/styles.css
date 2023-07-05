@@ -10,8 +10,8 @@ body {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    background-color: #202124;
-    color: white;
+    background-color: #d6dbdc;
+    color: black;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
@@ -35,7 +35,7 @@ body {
 }
     
 .border {
-    border-top: 0.23px solid #202124;
+    border-top: 0.23px solid #d6dbdc;
 }
 
 #logoText {
@@ -46,7 +46,7 @@ body {
 }
 
 #bio.content{
-    border-top: 0.5px solid #202124;
+    border-top: 0.5px solid #d6dbdc;
 }
 
 .component {
@@ -57,13 +57,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
-    border-bottom: 0.75px dashed white;
+    border-bottom: 0.75px dashed black;
 }
 
 #contact a {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-    color: #ea5b0c;
+    color: black;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 #contact .email {
-    color: #ea5b0c;
+    color: black;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .link{
-    color: white;
+    color: black;
     padding-bottom: 0.5rem;
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 #projects a {
-    color: #ea5b0c;
+    color: #d6dbdc;
     text-decoration: none;
   }
   
@@ -161,12 +161,12 @@ body {
   
   /* Change link color for projects */
   .project-info a.link {
-    color: #202124;
+    color: #d6dbdc;
   }
   
   /* Change link color on hover for projects */
   .project-info a.link:hover {
-    color: #ea5b0c;
+    color: #d6dbdc;
   }
   
   @media (max-width: 1024px) {  
