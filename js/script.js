@@ -74,16 +74,16 @@ fetch('data/projects.json')
         projectDiv.appendChild(projectContentDiv);
     
         projectTextDiv.addEventListener('click', () => {
-            if (projectInfoDiv.style.display === 'none') {
-                projectInfoDiv.style.display = '';
-                titleSpan.classList.add('selected');
-                dateSpan.classList.add('selected');
-            } else {
-                projectInfoDiv.style.display = 'none';
-                titleSpan.classList.remove('selected');
-                dateSpan.classList.remove('selected');
-            }
-        });
+          if (projectInfoDiv.style.display === 'none') {
+              projectInfoDiv.style.display = '';
+              titleSpan.classList.add('selected');
+              dateSpan.classList.add('selected');
+          } else {
+              projectInfoDiv.style.display = 'none';
+              titleSpan.classList.remove('selected');
+              dateSpan.classList.remove('selected');
+          }
+      });      
     
         projectItemsDiv.appendChild(projectDiv);
       }

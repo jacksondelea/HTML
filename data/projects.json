@@ -4,9 +4,9 @@
     "format": "Software",
     "setting": "Forensic Architecture",
     "date": "2023",
-    "info1": "I'm producing a video piece on behalf of Forensic Architecture for the Data and Surveillance exhibition with the Harvard Data and Society Group, set to open in October 2023. The video provides a demo of Mtriage, an open source software framework developed for the analysis of large volumes of video and images. I updated the code base, trained a new machine learning classifier to detect and classify objects in video and images, and produced and edited the video.",
+    "info1": "I'm producing a video piece on behalf of Forensic Architecture for the Data and Surveillance exhibition with the Harvard Data and Society Group, set to open in October 2023. The video provides a demo of Mtriage, an open source software framework developed for the analysis of large volumes of video and images. I updated the code base, trained a new machine learning classifier, and produced and edited the video.",
     "image": "data/images/triplechas.jpeg",
-    "info2": "Curatorial description: “Computer vision” is a field of computer science focused on identifying objects and aspects in images and videos. The field has been enriched in recent decades by significant advances in machine learning and artificial intelligence, which have sufficiently improved classification accuracy, facilitating an expansion in the business of large-scale and real-time processing in industry, business, and military applications. Computational “eyes” are heralded as more efficient than human ones at scale, and even less “biased” (by some). ‘Mtriage’ is an open source software framework developed by Forensic Architecture to download, process and analyze media in order to expedite the investigation of human rights violations captured in public domain media. ",
+    "info2": "Curatorial description: 'Forensic Architecture, an interdisciplinary research group, uses computational and spatial techniques to aid human rights investigations. The organization maintains a publicly-available software suite called mtriage, which deploys the types of image classification techniques used in facial recognition surveillance tools to different effect. Users can bulk download media from sites like YouTube and analyze them using computer vision techniques. In this way specific objects, like tear gas canisters or tanks, can be identified and classified across thousands of videos.'",
     "link": {
     "url": "https://forensic-architecture.org/investigation/detecting-tear-gas",
     "text": "Click here for more information"
@@ -17,7 +17,7 @@
     "format": "Writing",
     "setting": "Undergraduate",
     "date": "2023",
-    "info1": "Brief essay on the role of cybernetic systems, ranging from noise filters in anti-air weaponry to the capitalist world system, within Thomas Pynchons postmodern classic 'Gravitys Rainbow.'",
+    "info1": "Exploring the many cybernetic systems, ranging from noise filters in anti-air weaponry to the capitalist world system, within Thomas Pynchons postmodern classic 'Gravitys Rainbow.'",
     "image": "data/images/aircraft.jpeg",
     "info2": "This is the first edition of the essay.",
     "link": {
